@@ -1,5 +1,5 @@
 [package]
-name = "Valet"
+name = "valet"
 version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -9,4 +9,5 @@ panic-halt = "0.2.0"
 
 [dependencies.arduino-hal]
 git = "https://github.com/Rahix/avr-hal"
-rev = "f6c8b31"
+rev = "92d540c"
+features = ["arduino-uno"]
